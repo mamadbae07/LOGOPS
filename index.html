@@ -6,22 +6,21 @@
 		body{background-size:100% 100%;background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0AbRFt1DqjEkvejvJKpulroRMiK0Jy905ncCTsjtbgbPi-RmR8e1e28dl-315MGmvx1sAL5vEPa1npozkPWO1VAUvnE_AXGSjshqQxqCVVjMdIiV62VQHAxJOt8wI6YDsNDSNL4i9rqUOjbgCoaf4K2fkwugXoBtjVKYu07PSrc6x4I_WIx1eZwQJDs3J/s16000/anbk2.jpg);}
 
 
-
 	h1 {color: #000080;}
-	h2 {color: #FF0000;}
+	h2 {color: #ff000000;}
 
 
       .tombol{
         /*ubah warna background*/
-        background-color: #FFFFFF;
+        background-color: rgb(255 255 255 / 38%);
         /*ubah warna tulisan*/
         color: #000000;
         /*atur border*/
-        border: 2px solid #FF0000;
+        border: 2px solid #ff000000;
         /*atur sudut border*/
         border-radius: 5px;
         /*membuat efek bayangan*/
-        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 2px 8px 0px rgb(0 0 0 / 78%);
         /*teks rata tengah*/
         text-align: center;
 		/*teks tebal*/
@@ -45,15 +44,15 @@
 
       .tombol2{
         /*ubah warna background*/
-        background-color: #FF000;
+        background-color: rgb(255 255 255 / 38%);
         /*ubah warna tulisan*/
         color: #000000;
         /*atur border*/
-        border: 2px solid #6124e3;
+        border: 2px solid #ff000000;
         /*atur sudut border*/
         border-radius: 5px;
         /*membuat efek bayangan*/
-        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 2px 8px 0px rgb(0 0 0 / 78%);
         /*teks rata tengah*/
         text-align: center;
 		/*teks tebal*/
@@ -61,7 +60,7 @@
         /*ubah jarak margin/luar*/
         margin: 5px 2px;
         /*ubah jarak padding/dalam*/
-        padding: 12px 30px;
+        padding: 15px 30px;
         /*ubah tampilan kursor ketika berada diatas elemen*/
         cursor: pointer;
       }
@@ -77,15 +76,15 @@
 
       .tombol3{
         /*ubah warna background*/
-        background-color: white;
+        background-color: rgb(255 255 255 / 38%);
         /*ubah warna tulisan*/
         color: #FF000;
         /*atur border*/
-        border: 2px solid #00FF00;
+        border: 2px solid #ff000000;
         /*atur sudut border*/
         border-radius: 5px;
         /*membuat efek bayangan*/
-        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 2px 8px 0px rgb(0 0 0 / 78%);
         /*teks rata tengah*/
         text-align: center;
 		/*teks tebal*/
@@ -93,7 +92,7 @@
         /*ubah jarak margin/luar*/
         margin: 5px 2px;
         /*ubah jarak padding/dalam*/
-        padding: 12px 30px;
+        padding: 15px 30px;
         /*ubah tampilan kursor ketika berada diatas elemen*/
         cursor: pointer;
       }
@@ -101,21 +100,21 @@
         /*ubah warna background ketika kursor berada diatas elemen*/
         background-color: #00FF00;
         /*ubah warna tulisan*/
-        color: #FF000;
+        color: #FFFFFF;
         text:bold;
       }	
 	
      .tombol4{
         /*ubah warna background*/
-        background-color: white;
+        background-color: rgb(255 255 255 / 38%);
         /*ubah warna tulisan*/
         color: #FF000;
         /*atur border*/
-        border: 2px solid #000000;
+        border: 2px solid #ff000000;
         /*atur sudut border*/
         border-radius: 5px;
         /*membuat efek bayangan*/
-        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 2px 8px 0px rgb(0 0 0 / 78%);
         /*teks rata tengah*/
         text-align: center;
 		/*teks tebal*/
@@ -123,7 +122,7 @@
         /*ubah jarak margin/luar*/
         margin: 5px 2px;
         /*ubah jarak padding/dalam*/
-        padding: 12px 30px;
+        padding: 15px 30px;
         /*ubah tampilan kursor ketika berada diatas elemen*/
         cursor: pointer;
       }
@@ -135,25 +134,28 @@
         text:bold;
       }	
 	  
-.footer 
-{
-width: 90%;
-bottom: 0px;
-background-color: "";
-padding-top:5px;
-padding-bottom:10px;
-position: absolute;
-text-align:center;
-font-size:20px;
-font-weight:bold;}
+    /* Styling untuk footer */
+    footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+	  /* background-color: #926fc1; */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+	  color: #100000;
+	  font-size: 16px;
+      padding: 1px;
+    }
 
-   .link-tidak-aktif { 
-      pointer-events: none; 
+    .link-tidak-aktif {
+      pointer-events: none;
       cursor: default;
-      text-decoration: none; 
-      color: #FFFFFF;
-   }
- 
+      text-decoration: none;
+      color: #888;
+
 
 	</style>
 
@@ -165,14 +167,15 @@ font-weight:bold;}
 	</h1>
 </head>
 	
+	
 	<h2>
         Daftar Menu : 
-        <a href="https://web.whatsapp.com/" target="_blank"> <input type="button" class="tombol" value="Whatsapp"</a>
-	<a href="https://www.google.com/" target="_blank"> <input type="button" class="tombol" value="Google"</a>
-	<a href="https://www.youtube.com" target="_blank"> <input type="button" class="tombol" value="YouTube"</a>
+    <a href="https://www.google.com/" target="_blank"> <input type="button" class="tombol" value="Google"</a>
+    <a href="https://web.whatsapp.com/" target="_blank"> <input type="button" class="tombol" value="Whatsapp"</a>
+	<a href="https://www.youtube.com/" target="_blank"> <input type="button" class="tombol" value="YouTube"</a>
 	<a href="https://sipendiru.id" target="_blank"> <input type="button" class="tombol" value="PPDB SD"</a>
-        <a href="https://anbk.kemdikbud.go.id/" target="_blank"> <input type="button" class="tombol" value="ANBK"</a>
-	<a href="https://www.belajar.id/" target="_blank"> <input type="button" class="tombol" value="BELAJAR ID"</a>
+	<a href="https://bioansd.kemdikbud.go.id/akm2023/" target="_blank"> <input type="button" class="tombol" value="BIOAN"</a>
+    <a href="https://anbk.kemdikbud.go.id/" target="_blank"> <input type="button" class="tombol" value="ANBK"</a>
 	<a href="https://raporpendidikan.kemdikbud.go.id" target="_blank"> <input type="button" class="tombol" value="RAPOR ANBK"</a>
 	<a href="https://www.canva.com/" target="_blank"> <input type="button" class="tombol" value="CANVA"</a>
 
@@ -197,33 +200,34 @@ font-weight:bold;}
 	<a href="https://siplah.blibli.com/" target="_blank"> <input type="button" class="tombol3" value="Siplah Blibli"</a>
 	<a href="https://siplah.pesonaedu.id/" target="_blank"> <input type="button" class="tombol3" value="Pesona Edu"</a>
 	<a href="https://pip.kemdikbud.go.id/session" target="_blank"> <input type="button" class="tombol3" value="PIP"</a>
-       <a href="https://sirancage.majalengkakab.go.id" target="_blank"> <input type="button" class="tombol3" value="Sirancage"</a>
-       <a href="https://sammara.majalengkakab.go.id" target="_blank"> <input type="button" class="tombol3" value="SAMMARA"</a>
-       <a href="https://sidea.majalengkakab.go.id" target="_blank"> <input type="button" class="tombol3" value="Sidea"</a>
-       <a href="http://majalengka.dupakguru.net" target="_blank"> <input type="button" class="tombol3" value="Dupak"</a>
-       <a href="https://absensipns.majalengkakab.go.id" target="_blank"> <input type="button" class="tombol3" value="Absen PNS"</a>
-       <a href="http://simasdik.id" target="_blank"> <input type="button" class="tombol3" value="Simasdik"</a>
+    <a href="https://sirancage.majalengkakab.go.id" target="_blank"> <input type="button" class="tombol3" value="Sirancage"</a>
+    <a href="https://sammara.majalengkakab.go.id" target="_blank"> <input type="button" class="tombol3" value="SAMMARA"</a>
+    <a href="https://sidea.majalengkakab.go.id" target="_blank"> <input type="button" class="tombol3" value="Sidea"</a>
+    <a href="http://majalengka.dupakguru.net" target="_blank"> <input type="button" class="tombol3" value="Dupak"</a>
+    <a href="https://absensipns.majalengkakab.go.id" target="_blank"> <input type="button" class="tombol3" value="Absen PNS"</a>
+    <a href="http://simasdik.id" target="_blank"> <input type="button" class="tombol3" value="Simasdik"</a>
+    <a href="http://sdm.data.kemdikbud.go.id" target="_blank"> <input type="button" class="tombol3" value="SDM Data"</a>
 </p>
 
 <p> 
        <a href="https://bos.kemdikbud.go.id/session" target="_blank"> <input type="button" class="tombol4" value="BOS Online"</a>
        <a href="http://bos.kemdikbud.go.id" target="_blank"> <input type="button" class="tombol4" value="Portal BOS"</a>
        <a href="https://gtk.belajar.kemdikbud.go.id" target="_blank"> <input type="button" class="tombol4" value="SIMPKB"</a>
+	   <a href="https://paspor-gtk.simpkb.id/casgpo/login?service=https%3A%2F%2Fujikompetensi-backend.simpkb.id%2Fauth%2Flogin" target="_blank"> <input type="button" class="tombol4" value="LOGIN UKKJ"</a>
        <a href="https://daftar-pendataan-nonasn.bkn.go.id/login" target="_blank"> <input type="button" class="tombol4" value="Pendataan Non ASN"</a>
-       <a href="http://sdm.data.kemdikbud.go.id" target="_blank"> <input type="button" class="tombol4" value="SDM Data"</a>
 	   <a href="https://account.pajak.go.id/" target="_blank"> <input type="button" class="tombol4" value="DJP Online"</a>
        <a href="https://sse3.pajak.go.id" target="_blank"> <input type="button" class="tombol4" value="E-Billing"</a>
        <a href="http://padl.majalengka.opensipkd.com" target="_blank"> <input type="button" class="tombol4" value="Pajak Mamin"</a>
        <a href="https://subunitip.pajak.go.id/login" target="_blank"> <input type="button" class="tombol4" value="Pajak SubUnit"</a>
 </p>
-
+  <div class="footer">
+    <p>
+      <a href="" class="link-tidak-aktif"></i></a>
+    </p>
+  </div>
 </body>
-<div>
-<div class = "footer">
-	<p> 
-	<a href="" class="link-tidak-aktif" >Website akun belajar.id<i> | Creator By Mamad</i> </a>
-	</p>
-</div>
-</div>
+     <footer>
+    <p  href="" >Website akun belajar.id | Creator By Mamad</p>
+	 </footer>
 
 </html>
